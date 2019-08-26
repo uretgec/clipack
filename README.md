@@ -1,2 +1,1 @@
-# clipack
-Micro Clipboard Package Manager
+# Clipack Documents
