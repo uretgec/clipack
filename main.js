@@ -23,6 +23,9 @@ function createWindow() {
     });
 }
 
+// Don't show the app in the doc
+app.dock.hide();
+
 // App Init
 app.on("ready", function() {
     createWindow();
@@ -35,7 +38,10 @@ app.on("ready", function() {
     // MenuManager Start
     menuManager.start();
     menuManager.buildMenuItems({
-        label: app.getName() + " v" + app.getVersion()
+        label: app.getName() + " v" + app.getVersion(),
+        click: function () {
+            browserWindowManager.toggleWindow();
+        }
     });
     menuManager.buildMenuItems({
         type: "separator"
