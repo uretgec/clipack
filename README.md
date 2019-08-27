@@ -12,8 +12,8 @@ Look at the package.json -> scripts list. Run the scripts and then go to dist fo
 ``` npm run package-mac ```
 
 ## Screenshot
-![App Screen](https://github.com/uretgec/clipack/raw/screenshots/app.jpg)
-![Tray Menu](https://github.com/uretgec/pure-admin/raw/screenshots/traymenu.jpg)
+![App Screen](https://raw.githubusercontent.com/uretgec/clipack/master/screenshots/app.jpg)
+![Tray Menu](https://raw.githubusercontent.com/uretgec/clipack/master/screenshots/traymenu.jpg)
 
 ## Something Wrong
 Pls go to https://github.com/uretgec/clipack/issues page
