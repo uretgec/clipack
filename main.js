@@ -24,7 +24,7 @@ function createWindow() {
 }
 
 // Don't show the app in the doc
-app.dock.hide();
+if (process.platform === "darwin") app.dock.hide();
 
 // App Init
 app.on("ready", function() {
