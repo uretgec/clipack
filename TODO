@@ -10,3 +10,6 @@ install listener
 domain clipack.app add SSL Cert
 log file - app.setAppLogsPath(path)
 read - https://electronjs.org/docs/tutorial/security
+write release script
+auto-launch mode integration
+web page with ssl

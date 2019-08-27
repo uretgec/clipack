@@ -15,7 +15,8 @@
     "package-mac": "electron-packager . clipack --overwrite --platform=darwin --arch=x64 --prune=true --out=dist --version-string.FileDescription='Clipack Manager' --version-string.ProductName='Clipack' --icon=\"assets/icons/mac/icon.icns\" --asar",
     "package-win": "electron-packager . clipack --overwrite --platform=win32 --arch=ia32 --prune=true --out=dist --version-string.CompanyName='Uretgec' --version-string.FileDescription='Clipack Manager' --version-string.ProductName='Clipack' --icon=\"assets/icons/win/icon.ico\" --asar",
     "package-linux": "electron-packager . clipack --overwrite --platform=linux --arch=x64 --prune=true --out=dist --version-string.CompanyName='Uretgec' --version-string.FileDescription='Clipack Manager' --version-string.ProductName='Clipack' --icon=\"assets/icons/win/icon.ico\" --asar",
-    "package-all": "npm run build-osx && npm run build-win32 && npm run build-linux"
+    "package": "npm-run-all package-*",
+    "release": "node ./script/release.js"
   },
   "repository": {
     "type": "git",
