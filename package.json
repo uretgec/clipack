@@ -34,8 +34,8 @@
     "nuid": "^1.1.0"
   },
   "devDependencies": {
-    "electron": "^6.0.4",
-    "electron-packager": "^14.0.4"
+    "electron": ">=9.0.4",
+    "electron-packager": "^15.2.0"
   },
   "build": {
     "appId": "com.uretgec.clipack",
